@@ -15,7 +15,7 @@ const expect = function (val) {
             if (val !== test){
                 return val !== test
             } else {
-                throw new Error("Not Equal")
+                throw new Error("Equal")
             }
         }
     }
